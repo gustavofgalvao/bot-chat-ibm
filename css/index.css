@@ -1,0 +1,132 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/13/83/1ztpBl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  background-color: #DC143C;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+input {
+  color: #363636;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bot img {
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  size: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+#menu-trigger {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    margin-right: 20px;
+    left: 10px;
+    cursor: pointer;
+    transition: left 0.3s;
+    margin-top: 12px;
+}
+
+
+.menu-trigger  div {
+    width: 30px;
+    height: 4px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    margin-top: 3px;
+    color: white;
+}
+
+
+.menu-hidde {
+    background: #151515 none repeat scroll 0% 0%;
+    width: 185px;
+    height: 100%;
+    position: absolute;
+    box-shadow: 1px 2px 3px #DDD;
+    left: -100%;
+    transition: left 0.3s ease 0s;
+}
+
+.menu-hidde li {
+    color: #fff;
+    font-size: 20px;
+    padding: 18px;
+    cursor: pointer;
+}
+.menu-hidde ul {
+    position: absolute;
+    top: 31px;
+}
+
+.menu-hidde a {
+  color: #fff;
+  font-size: 20px;
+  padding: 18px;
+  cursor: pointer;
+  text-decoration:none;
+
+}
+
+.direito {
+  background: black;
+  text-decoration-color: white;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.direito p{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.barra {
+  padding-left: 70px;
+}
+
+.barrinha {
+  margin-left: 31%;
+}
+
+.problem{
+  float: left;
+  margin-left: 35.6%;
+  text-align: center;
+  font-size: 10px;
+  font: "Times New Roman", Times, serif;
+  color: grey;
+  padding-top: 10px;
+}
+
+.problem a{
+  text-decoration: none;
+  color: grey;
+}
